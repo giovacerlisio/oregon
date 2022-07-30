@@ -1,0 +1,91 @@
+body {
+    background-color: #ffffff;
+  }
+  
+  .testo{
+    color: #76ab21;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 40;
+    text-shadow: 2px 2px 9px #cecece;;
+    font-style: bold;
+    font-weight: bold;
+  
+  }
+
+  .image{
+    text-align: center;
+    margin-top: 170px;
+  }
+  
+  .topnav {
+      background-color: #258c56;
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      -webkit-box-shadow: 1px 1px 10px 0px #000000;
+      -moz-box-shadow: 1px 1px 10px 0px #000000;
+      -o-box-shadow: 1px 1px 10px 0px #000000;
+      box-shadow: 1px 1px 10px 0px #000000;
+    }
+    
+  
+  .topnav a {
+      font-family: 'Staatliches', cursive;
+      float: left;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 15px 15px;
+      text-decoration: none;
+      font-size: 28px;
+      font-style: bold;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #000000;
+    }
+    
+  
+  .topnav a:hover {
+      background-color: rgb(255, 255, 255);
+      color: #76ab21;
+    }
+    
+  
+  .topnav a.active {
+      background-color: #76ab21;
+      color: white;
+    }
+  
+    footer {
+      text-align: center;
+      background-color: #258c56;
+      color: #ffffff;
+      font-family: 'Staatliches', cursive;
+      position: fixed;
+      bottom:0;
+      left:0;
+      width:100%;
+      font-weight: bold;
+      font-size: 30;
+      text-shadow: 2px 2px #000000;;
+      -webkit-box-shadow: 1px 1px 10px 0px #000000;
+      -moz-box-shadow: 1px 1px 10px 0px #000000;
+      -o-box-shadow: 1px 1px 10px 0px #000000;
+      box-shadow: 1px 1px 10px 0px #000000;
+    }
+  
+  .anim{
+    position: relative;
+    animation: animone 3s;
+  }
+  
+  @keyframes animone {
+    from {top: 400px;}
+    to {top: 0px;}
+    
+  }
+
+  .icone{
+    text-align: center;
+}
